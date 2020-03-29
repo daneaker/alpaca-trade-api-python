@@ -3,8 +3,8 @@ import threading
 import time
 import datetime
 
-API_KEY = "PKV0K2PHQK7V87JX0259"
-API_SECRET = "palZFBtWEEvhYLrt0wOfSBK0uaRJTDtiLF12dC8i"
+API_KEY = "PKS3CNAAJ00T3P0BNA77"
+API_SECRET = "hjXoJJTptQBjcMV6aeMjcdQlusNZk9RFPaFv56OP"
 APCA_API_BASE_URL = "https://paper-api.alpaca.markets"
 
 
