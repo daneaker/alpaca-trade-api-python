@@ -1,1 +1,1 @@
-worker: pylivetrader run -f algorithm.py --backend-config config.yaml
+worker: __main__.py
