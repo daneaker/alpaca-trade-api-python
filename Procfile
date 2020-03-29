@@ -1,1 +1,1 @@
-worker: __main__.py
+worker: long-short.py
