@@ -1,1 +1,1 @@
-worker: long-short.py
+worker: python long-short.py
