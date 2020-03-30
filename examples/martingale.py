@@ -19,7 +19,7 @@ class MartingaleTrader(object):
         self.base_url = 'https://paper-api.alpaca.markets'
 
         # The symbol we will be trading
-        self.symbol = 'SPCB'
+        self.symbol = 'IFMK'
 
         # How many seconds we will wait in between updating the streak values
         self.tick_size = 5
