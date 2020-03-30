@@ -1,1 +1,1 @@
-worker: python examples/long-short.py
+worker: python examples/martingale.py
