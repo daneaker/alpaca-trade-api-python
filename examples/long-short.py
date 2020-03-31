@@ -3,8 +3,8 @@ import threading
 import time
 import datetime
 
-API_KEY = "PKLIIRI57ZDQO9XSY4ON"
-API_SECRET = "T1h6DwyOATyTajWagen91ru31n37nugfP7ugYQit"
+API_KEY = "PKP508ON34CNO6AAKFFW"
+API_SECRET = "c6SDRKJNGzsw18m1VqJiN9Wkpx1VZfyycjQ7q4pb"
 APCA_API_BASE_URL = "https://paper-api.alpaca.markets"
 
 
@@ -12,7 +12,7 @@ class LongShort:
   def __init__(self):
     self.alpaca = tradeapi.REST(API_KEY, API_SECRET, APCA_API_BASE_URL, 'v2')
 
-    stockUniverse = ['STIM', 'IFMK', 'ARCO', 'SPCB', 'IBIO', 'ACB', 'CHFS', 'OMI', 'SPLK', 'BA', 'AMZN', 'SUI', 'SUN', 'TSLA', 'CGC', 'SPWR', 'NIO', 'CAT', 'MSFT', 'PANW', 'OKTA', 'TWTR', 'TM', 'RTN', 'ATVI', 'GS', 'BAC', 'MS', 'TWLO', 'QCOM', ]
+    stockUniverse = ['IZEA', 'SRNE', 'STIM', 'PHIO', 'MSFT', 'TGNA', 'CRON', 'MARK', 'IFMK', 'EBAY', 'JNUG', 'AMRN', 'INTC', 'BMY', 'SPY', ]
     # Format the allStocks variable for use in the class.
     self.allStocks = []
     for stock in stockUniverse:
