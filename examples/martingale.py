@@ -14,12 +14,12 @@ class MartingaleTrader(object):
     def __init__(self):
         # API authentication keys can be taken from the Alpaca dashboard.
         # https://app.alpaca.markets/paper/dashboard/overview
-        self.key_id = "PKLIIRI57ZDQO9XSY4ON"
-        self.secret_key = "T1h6DwyOATyTajWagen91ru31n37nugfP7ugYQit"
+        self.key_id = "PKSQODW5RWAKG7M207PP"
+        self.secret_key = "OxOcD7MeGpQe/nwukijL80wNd2s877DH/Gw4ggff"
         self.base_url = 'https://paper-api.alpaca.markets'
 
         # The symbol we will be trading
-        self.symbol = 'IFMK'
+        self.symbol = 'TLRY'
 
         # How many seconds we will wait in between updating the streak values
         self.tick_size = 5
