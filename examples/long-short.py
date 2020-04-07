@@ -12,7 +12,7 @@ class LongShort:
   def __init__(self):
     self.alpaca = tradeapi.REST(API_KEY, API_SECRET, APCA_API_BASE_URL, 'v2')
 
-    stockUniverse = ['RAVE','VSLR','AMRS','JBLU','HIG','TWI','ELVT','TLRY','LK','PRTY',˙'WMC','NMIH','ACB','SPY','EAST','ZVO','DLTR',]
+    stockUniverse = ['RAVE','VSLR','AMRS','JBLU','HIG','TWI','ELVT','TLRY','LK','PRTY','WMC','NMIH','ACB','SPY','EAST','ZVO','DLTR',]
     # Format the allStocks variable for use in the class.
     self.allStocks = []
     for stock in stockUniverse:
