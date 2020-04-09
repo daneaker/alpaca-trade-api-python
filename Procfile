@@ -1,1 +1,1 @@
-worker: python examples/martingale.py
+worker: python examples/overnight_hold.py
