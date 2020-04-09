@@ -19,7 +19,7 @@ class MartingaleTrader(object):
         self.base_url = 'https://paper-api.alpaca.markets'
 
         # The symbol we will be trading
-        self.symbol = 'SRNE'
+        self.symbol = 'ONDK'
 
         # How many seconds we will wait in between updating the streak values
         self.tick_size = 5
@@ -27,7 +27,7 @@ class MartingaleTrader(object):
 
         # The percentage of our buying power that we will allocate to a new
         # position after a streak reset
-        self.base_bet = 5
+        self.base_bet = 10
 
         # These variables track the information about the current streak
         self.streak_count = 0
